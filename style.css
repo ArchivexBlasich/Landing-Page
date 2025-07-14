@@ -180,7 +180,7 @@ a {
     font-size: 24px;
 }
 
-/*------------- Call to action section-section --------------------*/
+/*------------- Call to action section  Style--------------------*/
 
 .call-to-action-section {
     background: #f9faf8;
@@ -220,3 +220,14 @@ a {
     margin-left: auto;
 }
 
+/*------------- Footer section style --------------------*/
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
