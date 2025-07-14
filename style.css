@@ -179,3 +179,44 @@ a {
     font-weight: 700;
     font-size: 24px;
 }
+
+/*------------- Call to action section-section --------------------*/
+
+.call-to-action-section {
+    background: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action-container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 15px;
+    flex: 0 1 900px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.call-to-action-container .sign-up-button {
+    border: 2px solid #f9faf8;
+}
+
+.call-to-action-container .sign-up-button:hover {
+    border: 2px solid black;
+}
+
+.call-to-action-container > :nth-child(2) {
+    margin-left: auto;
+}
+
